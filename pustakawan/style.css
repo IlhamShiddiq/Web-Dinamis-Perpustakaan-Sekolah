@@ -1,0 +1,187 @@
+/* Body Style */
+body {
+    background-color: rgb(236, 234, 234);
+}
+
+/* Navigasi */
+.navbar, .navbar2 {
+    background-color: #fff;
+}
+.navbar {
+    border-bottom: 5px solid black;
+}
+.navbar a.navbar-brand img {
+    float: left;
+    margin-right: 10px;
+}
+.navbar a.navbar-brand p {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+.navbar a.navbar-brand p.judul-pertama {
+    font-weight: bold;
+    margin-top: 17px;
+}
+.navbar a.navbar-brand p.judul-kedua {
+    margin-top: 23px;
+    font-size: 16px;
+}
+a.aktif {
+    border-bottom: 2px black solid;
+}
+.foto-pustakawan {
+    position: absolute;
+    top: 15px; right: 50px;
+}
+img.foto {
+    border-radius: 100px;
+}
+img.foto-edit {
+    cursor: pointer;
+}
+.navbar2 {
+    box-shadow: 1px 0px 8px black;
+}
+.navbar2 .navbar-nav {
+    margin-left: 85px;
+}
+.navbar2 a.nav-item {
+    font-size: 14px;
+    color: black !important;
+    margin-right: 10px;
+    padding: 15px;
+}
+.navbar2 a.disabled {
+    color: gray !important;
+}
+.navbar2 a.nav-item:hover {
+    color: rgb(82, 82, 82) !important;
+}
+
+/* Content */
+.content {
+    margin-top: 10px;
+    min-height: 73vh;
+}
+.a {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.ab {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 10px;
+}
+.content .data-admin table tr.row-data-admin {
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+.content .data-admin table tr td {
+    font-size: 13px;
+    padding: 3px;
+}
+.data {
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+}
+.identitas {
+    text-align: center;
+}
+.identitas .sapaan {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.identitas .hak {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.info-buku-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.info-buku .info-bukunya {
+    width: 100%;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 20px;
+}
+.info-buku a {
+    width: 100%;
+    font-size: 14px;
+    padding: 6px;
+    margin-top: 5px;
+}
+.info-umum small {
+    margin-left: 10px;
+}
+.info-umum hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hari-ini {
+    font-size: 13px;
+}
+.info-umum-buku {
+    width: 95%;
+    font-size: 28px;
+    background-color: rgb(214, 214, 214);
+    padding: 35px 25px;
+    margin: auto;
+}
+/* Akhir Konten */
+
+/* Footer */
+.footer {
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 1px 0px 7px black;
+}
+/* Akhir Footer */
+
+.corona-info {
+    background-image: url('../assets/img/CoronaInfo.jpg');
+    background-size: cover;
+    height: 270px;
+}
+td.aksi a, .aksi div {
+    display: inline-block;
+}
+.btn-ungu {
+    background-color: rgb(117, 13, 109);
+    border-color: rgb(117, 13, 109);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-ungu:hover {
+    background-color: rgb(71, 0, 65);
+    border-color: rgb(71, 0, 65);
+    color: white;
+}
+.aksi a.disabled i {
+    color: gray !important;
+}
+
+.your-profile-title {
+    font-size: 14px;
+    color: gray;
+    border-bottom: rgb(224, 224, 224) 1px solid;
+}
+
+.anim{
+    animation: anim 6s;
+}
+@keyframes anim {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
